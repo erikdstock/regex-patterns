@@ -1,0 +1,20 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+.container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+.form-label, .form-select, .btn-primary {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+.btn-primary {
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}

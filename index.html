@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="mb-3">Regex Pattern Viewer</h1>
+        <form>
+            <div class="mb-3">
+                <label for="patternType" class="form-label">Select Pattern Type:</label>
+                <select id="patternType" class="form-select" onchange="updateCountriesAndLabel()">
+                    <option value="">Please select</option>
+                    <option value="phoneNumbers">Phone Numbers</option>
+                    <option value="postalCodes">Postal Codes</option>
+                    <option value="VATNumbers">VAT Numbers</option>
+                    <option value="commonPatterns">Common Patterns</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label id="secondSelectLabel" for="country" class="form-label">Select Country:</label>
+                <select id="country" class="form-select">
+                    <option value="">Please select</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="programmingLanguage" class="form-label">Select Programming Language:</label>
+                <select id="programmingLanguage" class="form-select">
+                    <option value="">Please select</option>
+                    <option value="PHP">PHP</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Go">Go</option>
+                    <option value="Swift">Swift</option>
+                    <option value="Perl">Perl</option>
+                </select>
+            </div>
+            <button type="button" onclick="showPattern()" class="btn btn-primary">Show Pattern and Code</button>
+        </form>
+        <div id="regexDisplay" class="alert alert-success mt-3">Regex pattern will be displayed here.</div>
+        <div id="codeExampleDisplay" class="alert alert-info mt-3">Code example will be displayed here.</div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
