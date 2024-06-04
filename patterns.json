@@ -9,8 +9,11 @@
         "Croatia": "^\\+385[1-9][0-9]{7,8}$",
         "Cyprus": "^\\+357[2-9][0-9]{6,7}$",
         "Czech Republic": "^\\+420[1-9][0-9]{8}$",
-        "Germany": "^\\+49[1-9][0-9]{1,14}$",
+        "Denmark": "^\\+45[2-9][0-9]{7}$",
+        "Estonia": "^\\+372[5-9][0-9]{6,7}$",
+        "Finland": "^\\+358[1-9][0-9]{4,11}$",
         "France": "^\\+33[1-9][0-9]{8}$",
+        "Germany": "^\\+49[1-9][0-9]{1,14}$",
         "Italy": "^\\+39[0-9]{6,12}$"
       },
       "postalCodes": {
@@ -22,8 +25,11 @@
         "Croatia": "^\\d{5}$",
         "Cyprus": "^\\d{4}$",
         "Czech Republic": "^\\d{3}\\s?\\d{2}$",
-        "Germany": "^\\d{5}$",
+        "Denmark": "^\\d{4}$",
+        "Estonia": "^\\d{5}$",
+        "Finland": "^\\d{5}$",
         "France": "^\\d{5}$",
+        "Germany": "^\\d{5}$",
         "Italy": "^\\d{5}$"
       },
       "VATNumbers": {
@@ -35,8 +41,11 @@
         "Croatia": "^HR\\d{11}$",
         "Cyprus": "^CY\\d{8}L$",
         "Czech Republic": "^CZ\\d{8,10}$",
-        "Germany": "^DE[0-9]{9}$",
+        "Denmark": "^DK\\d{8}$",
+        "Estonia": "^EE\\d{9}$",
+        "Finland": "^FI\\d{8}$",
         "France": "^FR[A-HJ-NP-Z0-9]{2}[0-9]{9}$",
+        "Germany": "^DE[0-9]{9}$",
         "Italy": "^IT[0-9]{11}$"
       },
       "commonPatterns": {
